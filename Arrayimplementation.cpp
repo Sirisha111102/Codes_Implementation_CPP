@@ -29,4 +29,11 @@ int main()
 	{
 		cout<<arr[i]<<" ";
 	}
+	//sorting a elements in descneding order
+	cout<<endl;
+	sort(arr,arr+n,greater<int>());
+	for(int i=0;i<n;i++)
+	{
+		cout<<arr[i]<<" ";
+	}
 }
